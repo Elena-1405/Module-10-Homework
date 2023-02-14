@@ -1,0 +1,41 @@
+.btn {
+    padding: 0;
+    background-color:transparent;
+    border: 1px solid rgb(3, 3, 20);
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    
+    display: flex;
+    margin: 5px 15px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    color: rgb(5, 5, 33);
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141, 150, 178, .3);
+    transform: scale(1.05);
+  }
+  
+  .btn-text {
+    margin-right: 10px;
+  }
+  
+  .btn-icon {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+  }
+  
+  .icon2 {
+    display: none;
+  }
+
+  .task {
+    margin: 20px 15px;
+  }
